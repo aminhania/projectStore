@@ -1,0 +1,36 @@
+body {
+	background-color: #F7EAE8;
+}
+
+main {
+	margin: 30px;
+}
+
+#header1 {
+background-color: #75AEB5 ;
+margin: -8px;
+padding: 20px;
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+color: #F38071;
+
+}
+
+#products {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 40px;
+}
+
+#product1 {
+	width: 400px;
+
+}
+
+.imgs {
+	width: 300px;
+	height: 300px;
+
+}
