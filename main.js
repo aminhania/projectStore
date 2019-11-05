@@ -29,7 +29,7 @@ $(document).ready(function() {
 	$('#btn1').on('click', function() {
 		var cost = products[0].price * $("#in1").val();
 		sum = sum + cost;
-		$('#list').append("beats earphones<br>cost: " + cost + " * " + $("#in1").val() +"<hr>")
+		$('#list').append(products[0].name + "<br>cost: " + cost + " * " + $("#in1").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 		
 	});
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	$('#btn2').on('click', function() {
 		var cost = products[1].price * $("#in2").val();
 		sum = sum + cost;
-		$('#list').append("laptop1<br>price: " + cost + " * " + $("#in2").val() +"<hr>")
+		$('#list').append(products[1].name + "<br>price: " + cost + " * " + $("#in2").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 
 	});
@@ -45,7 +45,7 @@ $(document).ready(function() {
 	$('#btn3').on('click', function() {
 		var cost = products[2].price * $("#in3").val();
 		sum = sum + cost;
-		$('#list').append("JBL<br>price: " + cost + " * " + $("#in3").val() +"<hr>")
+		$('#list').append(products[2].name +  "<br>price: " + cost + " * " + $("#in3").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 
 	});
@@ -53,7 +53,7 @@ $(document).ready(function() {
 	$('#btn4').on('click', function() {
 		var cost = products[3].price * $("#in4").val();
 		sum = sum + cost;
-		$('#list').append("smartWatch<br>price: " + cost + " * " + $("#in4").val() +"<hr>")
+		$('#list').append(products[3].name + "<br>price: " + cost + " * " + $("#in4").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 
 	});
@@ -61,7 +61,7 @@ $(document).ready(function() {
 	$('#btn5').on('click', function() {
 		var cost = products[4].price * $("#in5").val();
 		sum = sum + cost;
-		$('#list').append("iphone XI<br>price: " + cost + " * " + $("#in5").val() +"<hr>")
+		$('#list').append(products[4].name + "<br>price: " + cost + " * " + $("#in5").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 
 	});
@@ -69,7 +69,7 @@ $(document).ready(function() {
 	$('#btn6').on('click', function() {
 		var cost = products[5].price * $("#in6").val();
 		sum = sum + cost;
-		$('#list').append("laptop2<br>price: " + cost + " * " + $("#in6").val() +"<hr>")
+		$('#list').append(products[5].name + "<br>price: " + cost + " * " + $("#in6").val() +"<hr>")
 		$("#ttl").html('your total is: ' + sum);
 
 	});
