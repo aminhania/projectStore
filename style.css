@@ -1,5 +1,7 @@
 body {
 	background-color: #F7EAE8;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
 main {
@@ -29,6 +31,7 @@ color: #F38071;
 	background-color: #CBE2E3;
 	width: 400px;
 	border-radius: 30px ;
+	font-size: 15px;
 }
 
 .imgs {
@@ -36,9 +39,6 @@ color: #F38071;
 	width: 300px;
 	height: 300px;
 }
-
-
-
 
 #img5 {
 	width: 240px;
@@ -60,4 +60,15 @@ color: #F38071;
 
 #aboutPrdct6 {
 	margin: 20px auto auto 130px;
+}
+
+
+#total {
+	padding: 10px;
+	margin: 10px auto auto auto;
+	background-color: #F6F9EA;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 10px;
+	border-radius: 15px;
 }
