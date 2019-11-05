@@ -28,6 +28,7 @@ color: #F38071;
 	margin: 10px;
 	background-color: #CBE2E3;
 	width: 400px;
+	border-radius: 30px ;
 }
 
 .imgs {
@@ -51,6 +52,10 @@ color: #F38071;
 
 .cart {
 	margin: auto auto 8px 130px;
+}
+
+.in {
+	width: 60px;
 }
 
 #aboutPrdct6 {
