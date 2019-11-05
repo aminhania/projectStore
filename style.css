@@ -27,6 +27,7 @@ color: #F38071;
 .divs {
 	margin: 10px;
 	background-color: #CBE2E3;
+	width: 400px;
 }
 
 .imgs {
@@ -35,10 +36,7 @@ color: #F38071;
 	height: 300px;
 }
 
-#product1 {
-	width: 400px;
 
-}
 
 
 #img5 {
