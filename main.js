@@ -73,5 +73,9 @@ $(document).ready(function() {
 		$("#ttl").html('your total is: ' + sum);
 
 	});
+	$('#reset').on('click', function(){
+		$('#list').html("");
+		$("#ttl").html("");
+	});
 
 })

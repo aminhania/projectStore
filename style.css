@@ -50,6 +50,13 @@ color: #F38071;
 	margin: 50px auto auto 50px;
 }
 
+.btns {
+	cursor: pointer;
+	background-color: #2B1048;
+	border: none;
+	color: white;
+}
+
 .cart {
 	margin: auto auto 8px 130px;
 }
@@ -71,4 +78,11 @@ color: #F38071;
 	font-size: 20px;
 	font-weight: 10px;
 	border-radius: 15px;
+}
+
+.ttlBtn {
+	cursor: pointer;
+	background-color: #504F3F;
+	border: none;
+	color: white;
 }
