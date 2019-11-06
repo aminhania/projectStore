@@ -12,10 +12,11 @@ main {
 background-color: #75AEB5 ;
 margin: -8px;
 padding: 20px;
-font-size: 20px;
+font-size: 40px;
 font-family: sans-serif;
 text-align: center;
 color: #F38071;
+text-transform: uppercase;
 
 }
 
@@ -38,6 +39,12 @@ color: #F38071;
 	margin: 5px auto auto 50px;
 	width: 300px;
 	height: 300px;
+
+}
+.imgs:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
 }
 
 #img5 {
@@ -51,10 +58,13 @@ color: #F38071;
 }
 
 .btns {
-	cursor: pointer;
+	
 	background-color: #2B1048;
-	border: none;
+	border-radius: 5px;
 	color: white;
+	display: inline-block;
+	border: none;
+	text-transform: uppercase;
 }
 
 .cart {
@@ -80,9 +90,16 @@ color: #F38071;
 	border-radius: 15px;
 }
 
-.ttlBtn {
-	cursor: pointer;
-	background-color: #504F3F;
+#checkout {
+	
+	background-color: #ed3330;
 	border: none;
 	color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+#reset {
+	text-transform: uppercase;
+	border: none;
+
 }
