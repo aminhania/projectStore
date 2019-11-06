@@ -61,7 +61,17 @@ var idBtn = ["bt1", "btn2", "btn3", "btn4", "btn5", "btn6"];
 		sum = 0;
 	});
 
+
+		$('#checkout').on("click", function(){
+			alert('see you next time you got a discount Copon');
+			$('#list').html("");
+			$("#ttl").html("");
+			sum = 0;
+
+		});
+
 })
+
 	
 	/*
 
